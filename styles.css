@@ -6,17 +6,20 @@
 body{
     font-family: "Young Serif", serif;
     display: flex;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(30, 38%, 92%);
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    
 }
 
     .container{
      display: flex;
      justify-content: center;
      align-items: center;
+     flex-direction: column;
      padding: 20px;
+     height: 400px;
      
     }
     .modal{
@@ -27,6 +30,7 @@ body{
         border-radius: 10px;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         
+        
     }
     .image img{
         width: 100%;
@@ -35,4 +39,63 @@ body{
     }
     .right{
         padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
+    .title {
+        text-transform: uppercase;
+        color: hsl(228, 12%, 48%);
+        font-size: 12px;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+      }
+      .head {
+        font-size: 24px;
+        font-family: "Young Serif", serif;
+        font-weight: bold;
+        color: hsl(212, 21%, 14%);
+        margin-bottom: 15px;
+      }
+      .discription {
+        font-size: 14px;
+        color: hsl(228, 12%, 48%);
+        line-height: 1.5;
+        margin-bottom: 20px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      .price {
+        font-size: 24px;
+        font-weight: bold;
+        color: hsl(158, 36%, 37%);
+        margin-bottom: 20px;
+      }
+      .price::after {
+        content: " $169.99";
+        font-size: 14px;
+        font-weight: normal;
+        color: hsl(228, 12%, 48%);
+        text-decoration: line-through;
+        margin-left: 10px;
+      }
+      .cart {
+        background-color: hsl(158, 36%, 37%);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 14px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+      .cart:hover {
+        background-color: hsl(158, 36%, 30%);
+      }
+     .attribution{
+        
+        font-family: Montserrat;
+        font-size: 12px;
+     }
