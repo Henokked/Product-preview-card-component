@@ -12,7 +12,7 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Henokked/Product-preview-card-component
+- Live Site URL: https://henokked.github.io/Product-preview-card-component/
 
 
