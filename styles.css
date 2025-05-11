@@ -104,9 +104,35 @@ body{
       .cart:hover {
         background-color: hsl(158, 36%, 30%);
       }
-     .attribution{
-        
-        font-family: Montserrat;
-        font-size: 12px;
-        /* margin-top: 60%; */
-     }
+ @media (max-width: 599px) {
+  .modal {
+    flex-direction: column;
+    max-width: 95vw;
+    width: 100%;
+  }
+  .image {
+    min-width: 100%;
+    height: 200px;
+    background-image: url('./images/image-product-mobile.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .right {
+    padding: 16px;
+  }
+  .head {
+    font-size: 18px;
+  }
+  .price {
+    font-size: 18px;
+  }
+  .discription {
+    font-size: 12px;
+  }
+  .cart {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 14px;
+  }
+}
+
